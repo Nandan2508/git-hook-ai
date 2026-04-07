@@ -75,7 +75,7 @@ const printTable = (metrics) => {
 const saveResults = (allResults, metrics) => {
   const output = {
     timestamp: new Date().toISOString(),
-    model: 'llama-3.1-8b-instant',
+    model: ''llama-3.3-70b-versatile',
     metrics,
     results: allResults,
   }
@@ -87,7 +87,7 @@ const saveResults = (allResults, metrics) => {
 const main = async () => {
   console.log('')
   console.log(chalk.bold('🔬 AI Git Hook — Benchmark Runner'))
-  console.log(chalk.gray('   model: llama-3.1-8b-instant via Groq'))
+  console.log(chalk.gray('   model: llama-3.3-70b-versatile via Groq'))
   console.log('')
 
   console.log(chalk.bold('── Buggy files (expect: DETECTED) ──'))
