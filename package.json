@@ -1,0 +1,15 @@
+{
+  "name": "git-hook-ai",
+  "version": "1.0.0",
+  "description": "AI-powered pre-commit hook",
+  "main": "src/index.js",
+  "scripts": {
+    "benchmark": "node benchmark/run.js",
+    "install-hook": "bash install.sh"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.5.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5"
+  }
+}
